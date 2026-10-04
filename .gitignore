@@ -1,0 +1,22 @@
+# 원본 백업 및 전용 배포 설정
+/strength-bloom/
+*.zip
+.openai/
+.wrangler/
+wrangler.toml
+wrangler.json
+wrangler.jsonc
+
+# 개발 도구 및 비밀 설정
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+.vscode/
+.idea/
+
+# 운영체제 임시 파일
+.DS_Store
+Thumbs.db
+Desktop.ini
